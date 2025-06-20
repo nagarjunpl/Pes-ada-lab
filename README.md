@@ -1,6 +1,6 @@
 # 💻 ADA Lab Programs - Design and Analysis of Algorithms
 
-Welcome to the **ADA Lab Programs** repository! This contains a curated collection of 10 essential programs from the Design and Analysis of Algorithms (ADA) lab, typically part of computer science engineering curricula.
+Welcome to the **ADA Lab Programs** repository! This contains a curated collection of 10 essential programs from the Design and Analysis of Algorithms (ADA) lab, typically part of computer science engineering curriculam.
 
 ---
 
