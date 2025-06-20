@@ -6,8 +6,7 @@ Welcome to the **ADA Lab Programs** repository! This contains a curated collecti
 
 ## 📚 Topics Covered
 
-Each program is implemented using C/C++ (or the language you prefer) and covers the following key algorithms:
-
+Each program is implemented using C and covers the following key algorithms:
 
 ## 📘 Programs Grouped by Topic
 
