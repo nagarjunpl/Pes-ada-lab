@@ -49,12 +49,21 @@ Each program is implemented using C/C++ (or the language you prefer) and covers 
 ## Folder Structure
 ada-lab-programs/
 ├── bfs.c
+
 ├── topological_sort.c
+
 ├── merge_sort.c
+
 ├── quick_sort.c
+
 ├── horspool.c
+
 ├── heap_sort.c
+
 ├── knapsack.c
+
 ├── dijkstra.c
+
 ├── kruskal.c
+
 └── sum_of_subsets.c
