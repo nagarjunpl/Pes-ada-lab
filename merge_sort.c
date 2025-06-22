@@ -3,19 +3,24 @@
 #include <time.h>
 
 // Function to partition the array
-int partition(int a[], int low, int high) {
+int partition(int a[], int low, int high) 
+{
     int pivot = a[low];
     int i = low + 1, j = high;
     int temp;
 
-    while (i <= j) {
-        while (i <= high && a[i] <= pivot) {
+    while (i <= j) 
+    {
+        while (i <= high && a[i] <= pivot) 
+        {
             i++;
         }
-        while (a[j] > pivot) {
+        while (a[j] > pivot) 
+        {
             j--;
         }
-        if (i < j) {
+        if (i < j) 
+        {
             temp = a[i];
             a[i] = a[j];
             a[j] = temp;
@@ -31,8 +36,10 @@ int partition(int a[], int low, int high) {
 }
 
 // Quick Sort function
-void quick_sort(int a[], int low, int high) {
-    if (low < high) {
+void quick_sort(int a[], int low, int high) 
+{
+    if (low < high) 
+    {
         int mid = partition(a, low, high);
         quick_sort(a, low, mid - 1);
         quick_sort(a, mid + 1, high);
@@ -40,7 +47,8 @@ void quick_sort(int a[], int low, int high) {
 }
 
 // Main function
-int main() {
+int main()
+{
     int n, i;
     int a[100];
     clock_t start, end;
@@ -51,7 +59,8 @@ int main() {
 
     srand(time(0));
     printf("The random numbers are:\n");
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) 
+    {
         a[i] = rand() % 100;
         printf("%d ", a[i]);
     }
@@ -64,7 +73,8 @@ int main() {
 
     // Print sorted array
     printf("The sorted numbers are:\n");
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) 
+    {
         printf("%d ", a[i]);
     }
     printf("\n");
